@@ -1,0 +1,325 @@
+#heading {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(60, 61, 104);
+}
+
+#text {
+    position: absolute;
+    right: 70px;
+    top: 200px;
+    width: 300px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+/* Summer Internships Page */
+#text-1 {
+    position: absolute;
+    right: 20px;
+    top: 223px;
+    width: 300px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+/* Clubs Page */
+#text-3 {
+    position: absolute;
+    left: 3%;
+    top: 1079px;
+    width: 580px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+.button {
+    position: absolute;
+    padding: 15px 20px; /* Adjusted padding for better spacing */
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    cursor: url("images/CLICKMOUSE.png") 10 0, auto;
+    left: 3%; /* Adjusted position to the right */
+    background: linear-gradient(135deg, #87CEEB, #6A5ACD); /* Gradient from light blue to purple */
+}
+
+#button1 {
+    position: absolute;
+    top:250px;
+}
+
+#button2 {
+    position: absolute;
+    top:400px;
+}
+
+#button3 {
+    position: absolute;
+    top:550px;
+}
+
+/* Pre-College Page */
+#button1-2 {
+    position: absolute;
+    top:250px;
+    left:1%;
+}
+
+#button2-2 {
+    position: absolute;
+    top:400px;
+    left:1%;
+}
+
+#button3-2 {
+    position: absolute;
+    top:550px;
+    left:1%;
+}
+
+#button4 {
+    position: absolute;
+    left: 330px;
+    top:250px;
+}
+
+#button5 {
+    position: absolute;
+    left: 330px;
+    top:400px;
+}
+
+#button6 {
+    position: absolute;
+    left: 330px;
+    top:550px;
+}
+
+#button7 {
+    position: absolute;
+    left: 670px;
+    top:250px;
+}
+
+#button8 {
+    position: absolute;
+    left: 670px;
+    top:400px;
+}
+
+#button9 {
+    position: absolute;
+    left: 670px;
+    top:550px;
+}
+
+#button10 {
+    position: absolute;
+    left:980px;
+    top:250px;
+}
+
+/* -2 Pre-College Page */
+#button10-2 {
+    position: absolute;
+    left:980px;
+    top:550px;
+}
+
+#button11 {
+    position: absolute;
+    left:980px;
+    top:400px;
+}
+
+#button12 {
+    position: absolute;
+    left:980px;
+    top:550px;
+}
+
+/* New */
+#button13 {
+    position: absolute;
+    top:700px;
+}
+
+#button14 {
+    position: absolute;
+    top:850px;
+}
+
+#button15 {
+    position: absolute;
+    top:1000px;
+}
+
+#button16 {
+    position: absolute;
+    left: 330px;
+    top:700px;
+}
+
+#button17 {
+    position: absolute;
+    left: 330px;
+    top:850px;
+}
+
+#button18 {
+    position: absolute;
+    left: 330px;
+    top:1000px;
+}
+
+#button19 {
+    position: absolute;
+    left: 670px;
+    top:700px;
+}
+
+#button20 {
+    position: absolute;
+    left: 670px;
+    top:850px;
+}
+
+#button21 {
+    position: absolute;
+    left: 670px;
+    top:1000px;
+}
+
+#button22 {
+    position: absolute;
+    left:980px;
+    top:700px;
+}
+
+#button23 {
+    position: absolute;
+    left:980px;
+    top:850px;
+}
+
+
+
+/* -1 used to style summer internships page */
+#button7-1 {
+    position: absolute;
+    left: 995px;
+    top:400px;
+}
+
+#button8-1 {
+    position: absolute;
+    left: 995px;
+    top:550px;
+}
+
+#button9-1 {
+    position: absolute;
+    top:700px;
+}
+
+#button10-1 {
+    position: absolute;
+    left: 330px;;
+    top:700px;
+}
+
+.button:hover {
+    background-color: #1E90FF; /* A shade of blue */
+    box-shadow: 0px 0px 10px 0px #1E90FF;
+}
+
+#buttonText1 {
+    position: absolute;
+    top:300px;
+    left:3%;
+    font-size: 18px;
+}
+
+#buttonText2 {
+    position: absolute;
+    top:450px;
+    left:3%;
+    font-size: 18px;
+}
+
+/* Pre-College Page */
+#buttonText2-2 {
+    position: absolute;
+    top:450px;
+    left:1%;
+    font-size: 12px;
+    background-color: gainsboro;
+}
+
+#buttonText3 {
+    position: absolute;
+    top:600px;
+    left:3%;
+    font-size: 18px;
+}
+
+#bottomText {
+    position: absolute;
+    left: 40px;
+    top: 628px;
+    width: 1200px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+#bottomText-2 {
+    position: absolute;
+    left: 1%;
+    top: 628px;
+    width: 780px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+
+#AISimg {
+    position: absolute;
+    top:680px;
+    left:1%;
+    width: 300px;
+}
+
+/* College Classes */
+#rhcLogo2 { 
+    position: absolute; 
+    left: 270px; 
+    top: 220px; 
+    width: 200px; 
+}
+
+#mtSACLogo2 { 
+    position: absolute; 
+    right: 230px; 
+    top: 240px; 
+    width: 250px; 
+}
+#p1 {
+    position: absolute;
+    left: 290px;
+    top: 450px;
+    width: 150px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+#p2 {
+    position: absolute;
+    right: 290px;
+    top: 440px;
+    width: 150px;
+    text-align: center;
+    background-color: gainsboro;
+}

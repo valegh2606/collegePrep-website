@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+
+<head>
+
+    <title> Bassett High School </title>
+    <link type = "text/css" rel = "stylesheet" href = "style.css">
+    <link type = "text/css" rel = "stylesheet" href = "style2.css">
+    <script src = "script.js">  </script>
+
+</head>
+
+
+<body>
+
+    <!-- Banner Div -->
+    <div id = "bannerDiv">
+        <img id = "bhsLogo" src = "images/bhsLogo.png">
+        <h3 onclick="toPage('index')"> Bassett High School </h3>
+    </div>
+
+    <!-- Nav Bar Div -->
+    <div id = "navBarDiv">
+
+        <!-- Fall -->
+        <div class = "seasonDiv" id = "fallDiv">
+            <button class = "seasonButton">
+                ~~~Fall~~~
+            </button>
+            <!-- Fall Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+            </div>
+        </div>
+
+
+        <!-- Winter -->
+        <div class = "seasonDiv" id = "winterDiv">
+            <button class = "seasonButton">
+                ~~~Winter~~~
+            </button>
+            <!-- Winter Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('iWinterIndex')"> Internships </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+            </div>
+        </div>
+
+
+        <!-- Spring -->
+        <div class = "seasonDiv" id = "springDiv">
+            <button class = "seasonButton">
+                ~~~Spring~~~
+            </button>
+            <!-- Spring Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+            </div>
+        </div>
+
+
+        <!-- Summer -->
+        <div class = "seasonDiv" id = "sumemrDiv">
+            <button class = "seasonButton">
+                ~~~Summer~~~
+            </button>
+            <!-- Summer Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('iSummerIndex')"> Internships and Other Programs </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+                <button onclick="toPage('pIndex')"> Pre-College Programs </button>
+                <button onclick="toPage('sIndex')"> Study Abroad </button>
+            </div>
+        </div>
+    </div>
+
+    <img id = "rhcLogo2" src = "images/rhcLogo.png" onclick="toLink('https://www.riohondo.edu/admissions/high-school-students/')">
+    <p id = "p1"> Take college classes at Rio Hondo College </p>
+
+    <img id = "mtSACLogo2" src = "images/mtSACLogo.png" onclick="toLink('https://www.mtsac.edu/counseling/special_admit.html')">
+    <p id = "p2"> Take college classes at Mt. San Antonio College </p>
+
+</body>
+
+
+</html>

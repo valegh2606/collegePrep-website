@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bassett High School</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <style>
+        body {
+            overflow-y: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Banner Div -->
+    <div id="bannerDiv">
+        <img id="rhcLogo" src="images/rhcLogo.png" onclick="toLink('https://www.riohondo.edu/admissions/high-school-students/')">
+        <img id="mtSACLogo" src="images/mtSACLogo.png" onclick="toLink('https://www.mtsac.edu/counseling/special_admit.html')">
+        <img id="bhsLogo" src="images/bhsLogo.png">
+        <h3 onclick="toPage('index')"> Bassett High School </h3>
+    </div>
+
+    <!-- Nav Bar Div -->
+    <div id="navBarDiv">
+
+        <!-- Fall -->
+        <div class="seasonDiv" id="fallDiv">
+            <button class="seasonButton">
+                ~~~Fall~~~
+            </button>
+            <!-- Fall Content -->
+            <div class="seasonContentDiv">
+                <button onclick="toPage('vIndex')">Volunteer Opportunities</button>
+                <button onclick="toPage('jIndex')">Job Opportunities</button>
+            </div>
+        </div>
+
+        <!-- Winter -->
+        <div class="seasonDiv" id="winterDiv">
+            <button class="seasonButton">
+                ~~~Winter~~~
+            </button>
+            <!-- Winter Content -->
+            <div class="seasonContentDiv">
+                <button onclick="toPage('vIndex')">Volunteer Opportunities</button>
+                <button onclick="toPage('jIndex')">Job Opportunities</button>
+                <button onclick="toPage('iWinterIndex')">Internships</button>
+                <button onclick="toPage('vCampusIndex')">Visiting Campus</button>
+            </div>
+        </div>
+
+        <!-- Spring -->
+        <div class="seasonDiv" id="springDiv">
+            <button class="seasonButton">
+                ~~~Spring~~~
+            </button>
+            <!-- Spring Content -->
+            <div class="seasonContentDiv">
+                <button onclick="toPage('vIndex')">Volunteer Opportunities</button>
+                <button onclick="toPage('jIndex')">Job Opportunities</button>
+                <button onclick="toPage('vCampusIndex')">Visiting Campus</button>
+            </div>
+        </div>
+
+        <!-- Summer -->
+        <div class="seasonDiv" id="summerDiv">
+            <button class="seasonButton">
+                ~~~Summer~~~
+            </button>
+            <!-- Summer Content -->
+            <div class="seasonContentDiv">
+                <button onclick="toPage('vIndex')">Volunteer Opportunities</button>
+                <button onclick="toPage('jIndex')">Job Opportunities</button>
+                <button onclick="toPage('iSummerIndex')">Internships and Other Programs</button>
+                <button onclick="toPage('vCampusIndex')">Visiting Campus</button>
+                <button onclick="toPage('pIndex')">Pre-College Programs</button>
+                <button onclick="toPage('sIndex')">Study Abroad</button>
+            </div>
+        </div>
+    </div>
+
+	<!-- Img Div -->
+	<div class="imgDiv">
+		<div id="gradOverlay"></div>
+		<img id="gradImg" src="images/hats.png">
+	</div>
+
+    <!-- Bottom Buttons -->
+    <button type="button" id="clubsBtn" class="btn" onclick="toPage('clubsIndex')">Clubs at Bassett High School</button>
+
+    <button type="button" id="collegeClassesBtn" class="btn" onclick="toPage('cCIndex')">Take College Classes While In High School</button>
+
+</body>
+
+</html>

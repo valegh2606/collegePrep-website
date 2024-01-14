@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <title> Study Abroad </title>
+    <link type = "text/css" rel = "stylesheet" href = "style.css">
+    <link type = "text/css" rel = "stylesheet" href = "style2.css">
+    <script src = "script.js">  </script>
+    
+</head>
+
+
+<body>
+    
+     <!-- Banner Div -->
+     <div id = "bannerDiv">
+        <img id = "rhcLogo" src = "images/rhcLogo.png" onclick="toLink('https://www.riohondo.edu/admissions/high-school-students/')">
+        <img id = "mtSACLogo" src = "images/mtSACLogo.png" onclick="toLink('https://www.mtsac.edu/counseling/special_admit.html')">
+        <img id = "bhsLogo" src = "images/bhsLogo.png">
+        <h3 onclick="toPage('index')"> Bassett High School </h3>
+    </div>
+
+    <!-- Nav Bar Div -->
+    <div id = "navBarDiv">
+
+        <!-- Fall -->
+        <div class = "seasonDiv" id = "fallDiv">
+            <button class = "seasonButton">
+                ~~~Fall~~~
+            </button>
+            <!-- Fall Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+            </div>
+        </div>
+
+
+        <!-- Winter -->
+        <div class = "seasonDiv" id = "winterDiv">
+            <button class = "seasonButton">
+                ~~~Winter~~~
+            </button>
+            <!-- Winter Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('iWinterIndex')"> Internships </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+            </div>
+        </div>
+
+
+        <!-- Spring -->
+        <div class = "seasonDiv" id = "springDiv">
+            <button class = "seasonButton">
+                ~~~Spring~~~
+            </button>
+            <!-- Spring Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+            </div>
+        </div>
+
+
+        <!-- Summer -->
+        <div class = "seasonDiv" id = "sumemrDiv">
+            <button class = "seasonButton">
+                ~~~Summer~~~
+            </button>
+            <!-- Summer Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('iSummerIndex')"> Internships and Other Programs </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+                <button onclick="toPage('pIndex')"> Pre-College Programs </button>
+                <button onclick="toPage('sIndex')"> Study Abroad </button>
+            </div>
+        </div>
+
+       
+    </div>
+
+    <!-- Container Div -->
+    <div id="containerDiv">
+
+        <p id = "heading"> Study Abroad </p>
+
+        <button id = "button1" class="button" onclick="toLink('https://www.ciee.org/go-abroad/high-school-study-abroad/summer/high-school-study-abroad-scholarships')"> CIEE High School Summer Abroad </button>
+        <p id = "buttonText1"> High school summer abroad programs </p>
+
+    </div>
+
+</body>
+
+
+</html>

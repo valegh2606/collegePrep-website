@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <title> Pre-College Programs </title>
+    <link type = "text/css" rel = "stylesheet" href = "style.css">
+    <link type = "text/css" rel = "stylesheet" href = "style2.css">
+    <script src = "script.js">  </script>
+    
+</head>
+
+
+<body>
+    
+     <!-- Banner Div -->
+     <div id = "bannerDiv">
+        <img id = "rhcLogo" src = "images/rhcLogo.png" onclick="toLink('https://www.riohondo.edu/admissions/high-school-students/')">
+        <img id = "mtSACLogo" src = "images/mtSACLogo.png" onclick="toLink('https://www.mtsac.edu/counseling/special_admit.html')">
+        <img id = "bhsLogo" src = "images/bhsLogo.png">
+        <h3 onclick="toPage('index')"> Bassett High School </h3>
+    </div>
+
+    <!-- Nav Bar Div -->
+    <div id = "navBarDiv">
+
+        <!-- Fall -->
+        <div class = "seasonDiv" id = "fallDiv">
+            <button class = "seasonButton">
+                ~~~Fall~~~
+            </button>
+            <!-- Fall Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+            </div>
+        </div>
+
+
+        <!-- Winter -->
+        <div class = "seasonDiv" id = "winterDiv">
+            <button class = "seasonButton">
+                ~~~Winter~~~
+            </button>
+            <!-- Winter Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('iWinterIndex')"> Internships </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+            </div>
+        </div>
+
+
+        <!-- Spring -->
+        <div class = "seasonDiv" id = "springDiv">
+            <button class = "seasonButton">
+                ~~~Spring~~~
+            </button>
+            <!-- Spring Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+            </div>
+        </div>
+
+
+        <!-- Summer -->
+        <div class = "seasonDiv" id = "sumemrDiv">
+            <button class = "seasonButton">
+                ~~~Summer~~~
+            </button>
+            <!-- Summer Content -->
+            <div class = "seasonContentDiv">
+                <button onclick="toPage('vIndex')"> Volunteer Opportunities </button>
+                <button onclick="toPage('jIndex')"> Job Opportunities </button>
+                <button onclick="toPage('iSummerIndex')"> Internships and Other Programs </button>
+                <button onclick="toPage('vCampusIndex')"> Visiting Campus </button>
+                <button onclick="toPage('pIndex')"> Pre-College Programs </button>
+                <button onclick="toPage('sIndex')"> Study Abroad </button>
+            </div>
+        </div>
+
+       
+    </div>
+
+    <!-- Container Div -->
+    <div id="containerDiv">
+
+        <p id = "heading"> Pre-College Programs </p>
+
+        <p id = "text">
+            Pre-college summer programs are a great opportunity to experience college life.<br>
+            The following universities offer <b>fully funded</b> pre-college programs, which means they are completely free, and merit based. <br>
+            Make sure you submit your application <b> before the deadline. </b> 
+
+            Some universisties ask you to select the scholarship option once you complete your application.
+
+        </p>
+
+        <button id = "button1-2" class="button" onclick = "toLink('https://bovardscholars.usc.edu/')"> University of Southern California </button>
+
+        <button id = "button2-2" class="button" onclick="toLink('https://www.cmu.edu/pre-college/')"> Carnegie Mellon University </button>
+        <p id = "buttonText2-2"> AI Scholars, Computer Science Scholars, and the <br> 
+            Summer Academy for Math and Science are fully <br> 
+            funded. The university also offers scholarships for the <br> 
+            other pre-college programs.  </p>
+
+        <button id = "button3-2" class="button" onclick="toLink('https://summer.ucla.edu/student-types/high-school-students/#options')"> UCLA </button>
+
+        <button id = "button4" class="button" onclick = "toLink('https://mites.mit.edu/discover-mites/mites-summer/')"> Massachusetts Institute of <br>Technology </button>
+
+        <button id = "button5" class="button" onclick = "toLink('https://www.nyu.edu/admissions/high-school-and-middle-school-programs/high-school-programs/nyu-precollege-program.html')"> New York University </button>
+
+        <button id = "button6" class="button" onclick="toLink('https://pupp.princeton.edu/#:~:text=Our%20multi%2Dyear%2C%20tuition%2D,and%20broadens%20cross%2Dcultural%20awareness.')"> Princeton University </button>
+
+        <button id = "button7" class="button" onclick="toLink('https://www.depts.ttu.edu/honors/academicsandenrichment/affiliatedandhighschool/clarks/')"> Texas Tech University </button>
+
+        <button id = "button8" class="button" onclick="toLink('https://globalscholars.yale.edu/')"> Yale University </button>
+
+        <button id = "button9" class="button" onclick="toLink('https://summer.uchicago.edu/programs/immersion')"> University of Chicago </button>
+
+        <button id = "button10-2" class="button" onclick="toLink('https://simr.stanford.edu/program-information.html')"> Stanford Medicine </button>
+
+        <p id = "bottomText-2"> Many universities also offer scholarships to pay for the total cost of pre-college programs. 
+        </p>
+        
+    </div>
+
+    <img id = "AISimg" src = "images/AIS.jpg">
+
+</body>
+
+
+</html>
